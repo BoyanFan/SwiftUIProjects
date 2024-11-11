@@ -7,5 +7,5 @@ Features:
 - Animations and Transitions: Smooth and dynamic animations.
 - Thematic Projects: Projects range from simple utilities to complex application prototypes.
 - UIKit Integration: Demonstrates how to seamlessly integrate UIKit components within modern SwiftUI projects.
-- 
+  
 Explore, learn, and contribute to this growing library of SwiftUI front-end projects!
