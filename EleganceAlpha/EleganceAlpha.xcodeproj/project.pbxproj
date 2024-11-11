@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		099C0CED2B574B2400348D8C /* EleganceEditorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099C0CEC2B574B2400348D8C /* EleganceEditorTextField.swift */; };
+		09C543AC2B44C92100A2AF55 /* EleganceAlphaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C543AB2B44C92100A2AF55 /* EleganceAlphaApp.swift */; };
+		09C543AE2B44C92100A2AF55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C543AD2B44C92100A2AF55 /* ContentView.swift */; };
+		09C543B02B44C92300A2AF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C543AF2B44C92300A2AF55 /* Assets.xcassets */; };
+		09C543B32B44C92300A2AF55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C543B22B44C92300A2AF55 /* Preview Assets.xcassets */; };
+		09FAF88C2B5A00AE00592EEA /* LineNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FAF88B2B5A00AE00592EEA /* LineNumberView.swift */; };
+		09FAF88F2B5A10C000592EEA /* LineRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FAF88E2B5A10C000592EEA /* LineRange.swift */; };
+		09FAF8912B5A2EB600592EEA /* EleganceEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FAF8902B5A2EB600592EEA /* EleganceEditorView.swift */; };
+		09FAF8992B5A562200592EEA /* ColorThemeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FAF8982B5A562200592EEA /* ColorThemeProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		099C0CEC2B574B2400348D8C /* EleganceEditorTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleganceEditorTextField.swift; sourceTree = "<group>"; };
+		09C543A82B44C92100A2AF55 /* EleganceAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EleganceAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C543AB2B44C92100A2AF55 /* EleganceAlphaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleganceAlphaApp.swift; sourceTree = "<group>"; };
+		09C543AD2B44C92100A2AF55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09C543AF2B44C92300A2AF55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09C543B22B44C92300A2AF55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09C543B42B44C92300A2AF55 /* EleganceAlpha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EleganceAlpha.entitlements; sourceTree = "<group>"; };
+		09FAF88B2B5A00AE00592EEA /* LineNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineNumberView.swift; sourceTree = "<group>"; };
+		09FAF88E2B5A10C000592EEA /* LineRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineRange.swift; sourceTree = "<group>"; };
+		09FAF8902B5A2EB600592EEA /* EleganceEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleganceEditorView.swift; sourceTree = "<group>"; };
+		09FAF8982B5A562200592EEA /* ColorThemeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThemeProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C543A52B44C92100A2AF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099C0CEB2B574AE000348D8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09FAF8902B5A2EB600592EEA /* EleganceEditorView.swift */,
+				099C0CEC2B574B2400348D8C /* EleganceEditorTextField.swift */,
+				09FAF88B2B5A00AE00592EEA /* LineNumberView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09C5439F2B44C92100A2AF55 = {
+			isa = PBXGroup;
+			children = (
+				09C543AA2B44C92100A2AF55 /* EleganceAlpha */,
+				09C543A92B44C92100A2AF55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C543A92B44C92100A2AF55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C543A82B44C92100A2AF55 /* EleganceAlpha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C543AA2B44C92100A2AF55 /* EleganceAlpha */ = {
+			isa = PBXGroup;
+			children = (
+				09C543BC2B44C9C100A2AF55 /* Utilities */,
+				099C0CEB2B574AE000348D8C /* Views */,
+				09C543AB2B44C92100A2AF55 /* EleganceAlphaApp.swift */,
+				09C543AD2B44C92100A2AF55 /* ContentView.swift */,
+				09C543AF2B44C92300A2AF55 /* Assets.xcassets */,
+				09C543B42B44C92300A2AF55 /* EleganceAlpha.entitlements */,
+				09C543B12B44C92300A2AF55 /* Preview Content */,
+			);
+			path = EleganceAlpha;
+			sourceTree = "<group>";
+		};
+		09C543B12B44C92300A2AF55 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09C543B22B44C92300A2AF55 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09C543BC2B44C9C100A2AF55 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				09FAF88E2B5A10C000592EEA /* LineRange.swift */,
+				09FAF8982B5A562200592EEA /* ColorThemeProvider.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C543A72B44C92100A2AF55 /* EleganceAlpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C543B72B44C92300A2AF55 /* Build configuration list for PBXNativeTarget "EleganceAlpha" */;
+			buildPhases = (
+				09C543A42B44C92100A2AF55 /* Sources */,
+				09C543A52B44C92100A2AF55 /* Frameworks */,
+				09C543A62B44C92100A2AF55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EleganceAlpha;
+			productName = EleganceAlpha;
+			productReference = 09C543A82B44C92100A2AF55 /* EleganceAlpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C543A02B44C92100A2AF55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					09C543A72B44C92100A2AF55 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 09C543A32B44C92100A2AF55 /* Build configuration list for PBXProject "EleganceAlpha" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C5439F2B44C92100A2AF55;
+			packageReferences = (
+			);
+			productRefGroup = 09C543A92B44C92100A2AF55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C543A72B44C92100A2AF55 /* EleganceAlpha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C543A62B44C92100A2AF55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C543B32B44C92300A2AF55 /* Preview Assets.xcassets in Resources */,
+				09C543B02B44C92300A2AF55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C543A42B44C92100A2AF55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FAF8992B5A562200592EEA /* ColorThemeProvider.swift in Sources */,
+				09C543AE2B44C92100A2AF55 /* ContentView.swift in Sources */,
+				09FAF88C2B5A00AE00592EEA /* LineNumberView.swift in Sources */,
+				09FAF88F2B5A10C000592EEA /* LineRange.swift in Sources */,
+				09FAF8912B5A2EB600592EEA /* EleganceEditorView.swift in Sources */,
+				099C0CED2B574B2400348D8C /* EleganceEditorTextField.swift in Sources */,
+				09C543AC2B44C92100A2AF55 /* EleganceAlphaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09C543B52B44C92300A2AF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09C543B62B44C92300A2AF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		09C543B82B44C92300A2AF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EleganceAlpha/EleganceAlpha.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EleganceAlpha/Preview Content\"";
+				DEVELOPMENT_TEAM = 75QV97CD94;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Boyan.Fan.EleganceAlpha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		09C543B92B44C92300A2AF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EleganceAlpha/EleganceAlpha.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EleganceAlpha/Preview Content\"";
+				DEVELOPMENT_TEAM = 75QV97CD94;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Boyan.Fan.EleganceAlpha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C543A32B44C92100A2AF55 /* Build configuration list for PBXProject "EleganceAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C543B52B44C92300A2AF55 /* Debug */,
+				09C543B62B44C92300A2AF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C543B72B44C92300A2AF55 /* Build configuration list for PBXNativeTarget "EleganceAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C543B82B44C92300A2AF55 /* Debug */,
+				09C543B92B44C92300A2AF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C543A02B44C92100A2AF55 /* Project object */;
+}
